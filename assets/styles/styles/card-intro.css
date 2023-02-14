@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5em 3.75em;    
+}
+
+.header-logo {
+    width: 30%;
+}
+
+.header-menu {
+    width: 40%;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+}
