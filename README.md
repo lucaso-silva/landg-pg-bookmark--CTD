@@ -1,2 +1,7 @@
 # landg-pg-bookmark--CTD
-Landing page development using HTML, CSS, and JavaScript.
+<p>Landing page development using HTML, CSS, and JavaScript.</p>
+<p>Based in a model by frontendmentor.io.</p>
+
+---
+
+> Status: Developing ⚠️
