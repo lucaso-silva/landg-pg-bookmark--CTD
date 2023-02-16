@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.75em;   
+}
+
+.nav-menu {
+    display: none;
+    font-size: .75em;
+    color: var(--very-dark-blue);
+}
+
+.menu-link {
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+    .menu {
+        width: 40%;
+    }
+
+    .nav-menu {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .menu-link {
+        margin: 0 1em;
+    }
+
+    .menu-hamburguer {
+        display: none;
+    }
+}
