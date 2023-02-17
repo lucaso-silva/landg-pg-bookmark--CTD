@@ -1,18 +1,19 @@
 @import url("./styles/header.css");
 @import url("./styles/card-intro.css");
+@import url("./styles/main-content.css");
 
 :root {
 --main-font: 'Rubik', sans-serif;
 
 /* Primary */
---soft-blue: hsl(231, 69%, 60%);
---soft-red: hsl(0, 94%, 66%);
+--soft-blue: #5368df;
+--soft-red: #fa5757;
 --color-btn: #f5f5f5;
 
 /* Neutral */
---grayish-blue: hsl(229, 8%, 60%);
---very-dark-blue: hsl(229, 31%, 21%);
---color-hover: hsl(86, 27%, 75%);
+--grayish-blue: #9194a1;
+--very-dark-blue: #252b46;
+--line-color: #c2d0ae;
 
 }
 
