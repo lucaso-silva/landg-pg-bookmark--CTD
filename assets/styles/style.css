@@ -3,6 +3,7 @@
 @import url("./styles/main-content.css");
 @import url("./styles/section-browser.css");
 @import url("./styles/section-faq.css");
+@import url("./styles/form-section.css");
 
 :root {
 --main-font: 'Rubik', sans-serif;
