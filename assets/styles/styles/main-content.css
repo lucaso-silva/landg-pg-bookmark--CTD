@@ -1,6 +1,7 @@
 .main-content {
     text-align: center;
     padding: 1em 2.5em;
+    margin-bottom: 3.5em;
 }
 
 .section-txt-content {
@@ -73,6 +74,10 @@
 }
 
 @media screen and (min-width: 768px) {
+    .main-content {
+        padding: 1.75em 2.5em;
+    }
+
     .nav-contents {
         flex-direction: row;
         align-items: center;
@@ -113,7 +118,27 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .main-content {
+        padding: 1.75em 4.75em;
+    }
+
+    .content-title {
+        font-size: 1.25em;
+    }
+
+    .feature-title {
+        font-size: 1.5em;
+    }
+
+    .feature-description {
+        font-size: 1.25em;
+    }
+
     .section-txt-content {
         padding: 0 8.75em;
+    }
+
+    .more-info {
+        font-size: 1.25em;
     }
 }

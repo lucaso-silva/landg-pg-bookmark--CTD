@@ -92,4 +92,8 @@ a {
     .image {
         width: 375px;
     }
+
+    .section-title {
+        font-size: 1.75em;
+    }
 }
