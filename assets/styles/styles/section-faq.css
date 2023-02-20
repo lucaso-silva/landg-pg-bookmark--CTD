@@ -9,7 +9,7 @@
 
 .questions {
   text-align: start;
-  margin-bottom: 2.5em;
+  margin-bottom: 4.75em;
 }
 
 .faq-question:hover {
@@ -21,10 +21,10 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: 0.125em solid var(--line-color);
-  margin-bottom: .5em;
+  margin-bottom: 1em;
 }
 
-.faq-arrow {
+.arrow {
   width: 10px;
 }
 

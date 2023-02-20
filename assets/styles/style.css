@@ -48,7 +48,7 @@ a {
 
 .red-btn {
     background-color: var(--soft-red);
-    padding: .75em 1.75em;
+    /* padding: .75em 1.75em; */
     border-radius: 5px;
     font-weight: 500;
     color: var(--color-btn)
@@ -62,7 +62,7 @@ a {
 
 .blue-btn {
     background-color: var(--soft-blue);
-    padding: .75em 1.75em;
+    /* padding: .75em 1.75em; */
     border-radius: 5px;
     font-weight: 500;
     color: var(--color-btn)

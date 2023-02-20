@@ -16,16 +16,18 @@
 <body>
     <div class="container">
         <header class="header">
-            <img src="./assets/img/logo-bookmark.svg" class="logo" alt="Logotipo da BookMark">
+            <div class="img-header">
+                <img src="./assets/img/logo-bookmark.svg" class="logo" alt="Logotipo da BookMark">
+                <img src="./assets/img/icon-hamburger.svg" id="menu-hamburger" class="menu-hamburger" alt="Menu-hamburger">
+            </div>
             <nav class="menu">
                 <ul class="nav-menu">
-                    <li class="li-menu"><a class="menu-link">Features</a></li>
-                    <li class="li-menu"><a class="menu-link">Pricing</a></li>
-                    <li class="li-menu"><a class="menu-link">Contact</a></li>
-                    <li class="li-menu"><a class="menu-link red-btn">Login</a></li>
+                    <li class="li-menu"><a href="#" class="menu-link">Features</a></li>
+                    <li class="li-menu"><a href="#" class="menu-link">Pricing</a></li>
+                    <li class="li-menu"><a href="#" class="menu-link">Contact</a></li>
+                    <li class="li-menu"><a href="#" class="menu-link">Login</a></li>
                 </ul>
             </nav>
-            <img src="./assets/img/icon-hamburger.svg" class="menu-hamburguer" alt="Menu-hamburguer">
         </header>
         <section class="card-intro">
             <div class="intro-card-text">
@@ -33,8 +35,8 @@
                 <p class="intro-txt">A clean and simple interface to organize your favourite websites. Open a new
                     browser tab and see your sites load instantly. Try it for free.</p>
                 <div class="intro-links">
-                    <a class="link-browser blue-btn">Get it on Chrome</a></li>
-                    <a class="link-browser blue-btn">Get it on Firefox</a></li>
+                    <a href="#" class="link-browser blue-btn">Get it on Chrome</a></li>
+                    <a href="#" class="link-browser blue-btn">Get it on Firefox</a></li>
                 </div>
             </div>
             <img class="intro-img image" src="./assets/img/illustration-hero.svg"
@@ -117,24 +119,36 @@
                 to email us.</p>
             <ul class="questions">
                 <li class="faq-question">
-                    <h4 class="faq-title">What is Bookmark?</h4>
+                    <div class="faq-title-line">
+                        <h4 class="faq-title">What is Bookmark?</h4>
+                        <img src="./assets/img/icon-arrow.svg" class="arrow" alt="Arrow">
+                    </div>
                     <p class="faq-answer faq-answer-hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo
                         eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
-                <li class="">
-                    <h4 class="faq-title"> How can I request a new browser?</h4>
+                <li class="faq-question">
+                    <div class="faq-title-line">
+                        <h4 class="faq-title"> How can I request a new browser?</h4>
+                        <img src="./assets/img/icon-arrow.svg" class="arrow" alt="Arrow">
+                    </div>
                     <p class="faq-answer">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies
                         non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue
                         massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis
                         ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
                 </li>
-                <li class="">
-                    <h4 class="faq-title">Is there a mobile app?</h4>
+                <li class="faq-question">
+                    <div class="faq-title-line">
+                        <h4 class="faq-title">Is there a mobile app?</h4>
+                        <img src="./assets/img/icon-arrow.svg" class="arrow" alt="Arrow">
+                    </div>
                     <p class="faq-answer faq-answer-hidden">Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum
                         dolor, ut condimentum urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet
                         pharetra purus. Sed sollicitudin ex et ultricies bibendum.</p>
                 </li>
-                <li class="">
-                    <h4 class="faq-title">What about other Chromium browsers?</h4>
+                <li class="faq-question">
+                    <div class="faq-title-line">
+                        <h4 class="faq-title">What about other Chromium browsers?</h4>
+                        <img src="./assets/img/icon-arrow.svg" class="arrow" alt="Arrow">
+                    </div>
                     <p class="faq-answer faq-answer-hidden">Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at
                         euismod dui. Aliquam vitae neque eget nisl gravida pellentesque non ut velit.</p>
                 </li>
@@ -151,12 +165,12 @@
             </form>
         </section>
         <footer class="footer">
-                <img src="./assets/img/logo-bookmark-white.svg" class="logo-ft" alt="Logotipo da BookMark">
+                <img src="./assets/img/logo-bookmark-footer.svg" class="logo-ft" alt="Logotipo da BookMark">
                 <nav class="menu">
                     <ul class="foot-menu">
-                        <li class="li-menu"><a class="menu-link">Features</a></li>
-                        <li class="li-menu"><a class="menu-link">Pricing</a></li>
-                        <li class="li-menu"><a class="menu-link">Contact</a></li>
+                        <li class="li-menu-footer"><a class="menu-link-footer">Features</a></li>
+                        <li class="li-menu-footer"><a class="menu-link-footer">Pricing</a></li>
+                        <li class="li-menu-footer"><a class="menu-link-footer">Contact</a></li>
                     </ul>
                 </nav>
             <div class="social-media">
@@ -165,6 +179,8 @@
             </div>
         </footer>
     </div>
+
+<script src="./assets/js/script.js" type="module"></script>
 </body>
 
 
