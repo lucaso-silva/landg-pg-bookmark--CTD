@@ -3,7 +3,7 @@
   flex-direction: column-reverse;
   align-items: center;
   text-align: center;
-  padding: 2.5em 0;
+  padding: 0 2em;
 }
 
 .title-intro {
@@ -38,7 +38,19 @@
 }
 
 .link-browser {
-    font-size: .85em;
+    font-size: .75em;
+    text-decoration: none;
+    padding: .75em 1.75em;
+    background-color: var(--soft-blue);
+    border-radius: 5px;
+    font-weight: 500;
+    color: var(--color-btn)
+}
+
+.link-browser:hover {
+    background-color: var(--bg-color);
+    color: var(--very-dark-blue);
+    border: .15em solid var(--soft-blue);
 }
 
 @media screen and (min-width: 768px) {
@@ -46,6 +58,7 @@
     flex-direction: row;
     align-items: center;
     text-align: start;
+    padding-left: 3.5em;
   }
 
   .title-intro {
@@ -64,10 +77,11 @@
 
 @media screen and (min-width: 1024px) {
   .intro-card-text {
-    padding: 0 1.75em;
+    padding: 0 2.75em;
   }
 
   .intro-links {
-    padding: 2.5em 3.75em 1.25em 3.75em;
+    padding: 2.5em 1.75em 1.25em 1.75em;
+    text-align: start;
   }
 }
