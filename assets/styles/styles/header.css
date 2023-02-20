@@ -36,7 +36,7 @@
 .menu-link-mobile {
   border: 0.15em solid var(--bg-color);
   border-radius: 5px;
-  padding: 0.25em 10em;
+  padding: 0.5em 10em;
   margin-top: 5em;
 }
 
@@ -57,6 +57,7 @@
 .li-menu-mobile {
   color: var(--bg-color);
   border-top: 0.1em solid var(--line-color);
+  padding: 1em 0;
 }
 
 .li-menu-mobile:last-child {

@@ -24,39 +24,69 @@
 }
 
 .form-input {
-  padding: 0.5em 0;
+  padding: 1em;
+  border: none;
+  border-radius: 5px;
   margin: 0.75em 0;
+}
+
+.form-btn {
+  border: none;
+  background-color: var(--soft-red);
+  padding: 0.75em 1.75em;
+  border-radius: 5px;
+  font-weight: 600;
+  color: var(--color-btn);
+  font-size: 1em;
+}
+
+.form-btn:hover {
+  background-color: var(--bg-color);
+  color: var(--soft-red);
+  border: 0.175em solid var(--soft-red);
 }
 
 @media screen and (min-width: 768px) {
   .form-section {
-    padding: 2.75em 7.75em;
+    padding: 2.75em 5.75em;
   }
 
   .form-contact {
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
 
   .form-input {
-    width: 65%;
-    padding: 1.25em 0;
+    width: 55%;
+    padding: .75em 1em;
+    font-size: 1em;
+  }
+
+  .form-btn {
+    padding: .75em 1.75em;
   }
 }
 
 @media screen and (min-width: 1024px) {
     .form-info-num {
-        font-size: 1em;
+        font-size: 1.25em;
       }
       
       .form-info-description {
-        font-size: 1.85em;
+        font-size: 2.5em;
       }
+
     .form-section {
-        padding: 2.75em 13.75em;
+        padding: 2.75em 10.25em;
       }
     
       .form-input {
-        width: 70%;
+        font-size: 1.25em;
+        width: 60%;
+      }
+
+      .form-btn {
+        font-size: 1.25em;
       }
 }

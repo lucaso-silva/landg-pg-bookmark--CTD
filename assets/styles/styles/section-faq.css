@@ -55,10 +55,26 @@
     .faq-section {
         padding: 3em 4em;
       }
+
+    .arrow {
+      width: 12.75px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
     .faq-section {
         padding: 3em 7.5em;
       }
+
+      .faq-title {
+        font-size: 1em;
+      }
+
+      .arrow {
+        width: 15px;
+      }
+
+    .faq-answer {
+      font-size: 1em;
+    }
 }
