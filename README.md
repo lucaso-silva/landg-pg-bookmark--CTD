@@ -26,7 +26,20 @@ Your users should be able to:
 - JavaScript
 
 ## What I learned 💡
-- During the development of this project, I could consolidate more knowledge about CSS, which was helpful to use with the visibility of cards and sections.
+- During the development of this project, I could consolidate more knowledge about CSS, which was helpful to use with the visibility of cards and sections. 
+Use of `:nth-child()` pseudo-class to select elements based on their position among a group of siblings.
+```CSS
+.intro-links a:nth-child(2) {
+  background-color: var(--second-btn);
+  color: var(--very-dark-blue);
+}
+
+.intro-links a:nth-child(2):hover {
+  background-color: var(--bg-color);
+  color: var(--very-dark-blue);
+  border: .15em solid var(--very-dark-blue);
+}
+```
 - Programming with JavaScript was challenging and extremely necessary to implement visibility of cards in the main section and show the answers to each question in the FAQ section.
 
 ### 🛠️ Continued development
